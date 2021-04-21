@@ -1,0 +1,55 @@
+body {
+	background-color: #e6ecf0;
+}
+
+.navbar a {
+	font-weight: bold;
+}
+
+.navbar a p {
+	display: inline-block;
+}
+
+.navbar a:hover {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.navbar-brand > img {
+	display: inline-block;
+	width: 30px;
+	border-radius: 2px;
+}
+
+.home-hero {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: -1;
+	background-image: url('./images/signed-out-home.jpg');
+	background-size: cover;
+	text-align: center;
+	padding: 1rem;
+	background-position: center center;
+	color: #fff;
+	text-shadow: 0 0 8px #66757f;
+}
+
+#messages:not(.no-hover) .card:hover {
+	background-color: #e6ecf0;
+}
+
+.timeline-image {
+	height: 48px;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
